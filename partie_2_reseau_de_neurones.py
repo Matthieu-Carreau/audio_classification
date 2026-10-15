@@ -258,7 +258,7 @@ for f_name in f_names:
     # Calcul du spectrogramme
     log_mel_spec = ...
 
-    plt.imshow(log_mel_spec)
+    plt.imshow(log_mel_spec, origin="lower")
     plt.title(f_name)
     plt.show()
 
