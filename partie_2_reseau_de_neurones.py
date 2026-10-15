@@ -269,7 +269,8 @@ for f_name in f_names:
     scores = ...
 
     # Tri par score décroissant
-    idx = torch.argsort(scores[0].detach(), descending=True).numpy()
+    scores = scores[0].detach()
+    idx = torch.argsort(scores, descending=True).numpy()
 
     print("Détections:")
     if max(scores) < threshold:
