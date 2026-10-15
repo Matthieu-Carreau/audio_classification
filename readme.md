@@ -8,6 +8,8 @@ Cet atelier est dans 2 parties :
 - 2 - Détection par réseau de neurones
 
 Pour chacune des parties, un notebook (.ipynb) et son équivalent en script python (.py) sont disponibles.
+Ces fichiers contiennent des lignes à compléter, indiquées par ```...```.
+Les solutions se trouvent dans le dossier ```notebooks_complets```.
 
 Pour suivre l'atelier, cloner le dépôt 
 
