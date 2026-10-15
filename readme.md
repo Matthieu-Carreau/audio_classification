@@ -19,3 +19,8 @@ Créer l'environnement avec conda
 ```
 conda env create -f env_rdei.yml
 ```
+
+Alternativement, pour installer les dépendances avec pip uniquement : 
+```
+pip install numpy matplotlib torch torchaudio librosa pandas
+```
